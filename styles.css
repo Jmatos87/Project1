@@ -1,0 +1,344 @@
+body{
+	background-color: #14283e;
+	font-size: 0;
+	box-sizing: border-box;
+	margin: 0;
+	font-family: 'Open Sans';
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+#background-image{
+	min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -2;
+    opacity: .5
+}
+#centerContainer{
+	margin: 0 15%;
+	width: 85%
+}
+#menu{
+	font-size: 20px;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	height: 50px;
+	width: 100%;
+	background-color: #14283e;
+	color: white;
+	
+}
+#menuButtons{
+	float: right;
+	padding: 10px 0px;
+}
+#menuButtons a {
+	text-decoration: none;
+	color: white;
+}
+#menuButtons a:hover {
+	text-decoration: none;
+	color: red;
+}
+#menuButtons a::after {
+	content: '';
+	border-right: 1px solid white;
+}
+#menuButtons a:last-child::after{
+	border: none;
+}
+#menuButtons span{
+	margin-right: 20px;
+	margin-left: 20px
+}
+#section1{
+	height: 100vh;
+	width: 100%;
+	min-height: 560px;
+	position: relative;
+	justify-content: center;
+	text-align: center;
+}
+#heroTextContainer{
+	padding-top: 300px;
+	font-size: 20px;
+	color: white;
+}
+#heroTextContainer h2{
+	color: white;
+    font-weight: 800;
+    letter-spacing: 0.225em;
+    margin: 0 0 1em 0;
+    text-transform: uppercase;
+    line-height: 60px;
+    position: relative;
+    display: inline-block;
+}
+#heroTextContainer h2:before{
+	background: white;
+    content: '';
+    display: block;
+    height: 2px;
+    position: absolute;
+    width: 100%;
+}
+#heroTextContainer h2:after{
+	background: white;
+    content: '';
+    display: block;
+    height: 2px;
+    position: absolute;
+    width: 100%;
+}
+#heroTextContainer p {
+	letter-spacing: 0.225em;
+    text-transform: uppercase;
+}
+#heroTextContainer button{
+    border-radius: 3px;
+    border: 0;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 0.8em;
+    font-weight: 600;
+    height: 3.125em;
+    letter-spacing: 0.225em;
+    line-height: 3.125em;
+    padding: 0 2.75em;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background-color: #ed4933;
+}
+#s6Left{
+	display: inline-block;
+	color: white;
+	padding-right: 30px
+}
+#s6Right{
+	display: inline-block;
+}
+#s6Right button{
+	border-radius: 3px;
+    border: 0;
+    color: white;
+    cursor: pointer;
+    display: block;
+    font-size: 0.8em;
+    font-weight: 600;
+    height: 3.125em;
+    width: 250px;
+        margin: 0 0 1em 0;
+    letter-spacing: 0.225em;
+    line-height: 3.125em;
+    padding: 0 2.75em;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background-color: #ed4933;
+}
+#section2{
+	background-color: #33669d;
+	width: 100%;
+	padding: 6em 0 6em 0;
+	font-size: 20px;
+	text-align: center;
+	position: relative
+}
+#section2 h2{
+	border-bottom: solid 2px white;
+    display: inline-block;
+    padding-bottom: 1em;
+    position: relative;
+    color: white;
+
+}
+#section2 p{
+	color: #ccd8e6;
+	margin: 0 auto;
+	max-width: 770px
+}
+#section2 p::after{
+	background-image: url('./ic_keyboard_arrow_down_white_24px.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    bottom: 1em;
+    content: '';
+    display: block;
+    height: 1.5em;
+    left: 50%;
+    margin: 0 0 0 -0.75em;
+    position: absolute;
+    width: 1.5em;
+}
+#section2 span{
+	color:  #ed4933;
+	font-weight: bold;
+	font-size: 25px
+}
+#section3{
+	background-color: rgba(33, 55, 79,1);
+	height: 300px;
+	width: 100%;
+	font-size: 20px;
+	color: white;
+	margin-top: 40px;
+}
+#section3 .imgContainer img {
+    float: left;
+}
+#section4{
+	background-color: #14283e;
+	height: 300px;
+	width: 100%;
+	font-size: 20px;
+	color: white;
+	margin-top: 40px;
+}
+#section4 .imgContainer {
+    float: right;
+    margin-left: 0;
+    margin-right: 5%
+}
+#section4 .imgContainer img {
+    float: right;
+}
+#section5{
+	background-color: rgba(33, 55, 79,1);
+	height: 300px;
+	width: 100%;
+	font-size: 20px;
+	color: white;
+	margin-top: 40px;
+}
+#section5 .imgContainer img {
+    float: left;
+}
+#section6{
+	width: 100%;
+	padding: 6em 0 4em 0;
+	width: 100%;
+	font-size: 20px;
+}
+#section7{
+	background-color: #1C2329;
+	height: 100px;
+	width: 100%;
+	padding: 6em 0 4em 0;
+	text-align: center;
+	color: #8D9194;
+	font-size: 20px
+}
+#section7 a{
+	text-decoration: none;
+	color: cornflowerblue;
+}
+.imgContainer{
+	width: 40%;
+	height: 100%;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 5%;
+}
+.imgContainer img{
+  	height: auto;
+  	max-height: 300px;
+  	float: right;
+}
+.content{
+	max-width: 48em;
+   /*  width: 60%; */
+    padding: 2em 2em 0.1em 4em;
+}
+.content h2{
+	display: inline-block
+}.content p{
+	margin-top: 0;
+}
+.contentContainer{
+	width: 54%;
+	height: 100%;
+	display: inline-block;
+	vertical-align: top;
+}
+@media screen and (max-width: 1000px) {
+	#centerContainer{
+		margin: 0;
+		width: 100%
+	}
+	#heroTextContainer h2{
+		width: 100%
+	}
+	#section2{
+		font-size: 17px
+	}
+	#section3{
+		height: 900px;
+		margin-top: 0;
+	}
+	#section4{
+		height: 900px;
+		margin-top: 0;
+		background: rgba(33, 55, 79,1)
+	}
+	#section4 .imgContainer{
+		float: none;
+	}
+	#section5{
+		height: 900px;
+		margin-top: 0;
+	}
+	#section6{
+		padding: 4em 0 4em 0;
+	}
+	#s6Left{
+		display: block;
+		text-align: center;
+		padding-right: 0
+	}
+	#s6Right{
+		display: block;
+		width: 250px;
+    	margin: 0 auto;
+	}
+    .imgContainer{
+    	margin: 0 auto;
+    	display: block;
+    	height: 600px;
+    	width: 100%;
+    }
+    .imgContainer img{
+    	height: 100%;
+    	width: 100%;
+    	max-height: 600px;
+    }
+    .contentContainer{
+    	display: block;
+    	height: 300px;
+    	width: 100%;
+    	text-align: center;
+    	vertical-align: top
+    }
+}
+#construction{
+	font-size: 50px;
+	color: red;
+	text-align: center
+}
+
+
