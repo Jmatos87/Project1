@@ -23,6 +23,9 @@ i{
     z-index: -2;
     opacity: .5
 }
+#brandWrapper{
+	margin: 0 5%;
+}
 #centerContainer{
 	margin: 0 15%;
 	width: 85%
@@ -124,6 +127,18 @@ i{
     text-overflow: ellipsis;
     background-color: #ed4933;
 }
+#logoSpace{
+	background-color: rgba(33, 55, 79,.8);
+	width: 100%;
+	padding: 1em 0 6em 0;
+	font-size: 20px;
+	position: relative;
+	margin: 10px 0px;
+}
+#logoSpace h1{
+	text-align: center;
+	color: white;
+}
 #s6Left{
 	display: inline-block;
 	color: white;
@@ -155,7 +170,7 @@ i{
     background-color: #ed4933;
 }
 #section2{
-	background-color: #33669d;
+	background-color: rgba(33, 55, 79,.8);
 	width: 100%;
 	padding: 6em 0 6em 0;
 	font-size: 20px;
@@ -174,6 +189,20 @@ i{
 	color: #ccd8e6;
 	margin: 0 auto;
 	max-width: 770px
+}
+#portraitContainer{
+	display: inline-block;
+	width: 30%;
+	padding: 20px;
+	vertical-align: top
+}
+#portraitContainer img{
+	width: 100%;
+}
+#portraitText{
+	display: inline-block;
+	width: 65%;
+	vertical-align: top
 }
 #section2 p::after{
 	background-image: url('./ic_keyboard_arrow_down_white_24px.svg');
@@ -263,6 +292,16 @@ i{
   	max-height: 300px;
   	float: right;
 }
+.brandBlock{
+	margin: 10px 20px;
+	display: inline-block;
+	vertical-align: top;
+	width: 28%;
+}
+.brandImg{
+	width: 100%;
+    height: 150px;
+}
 .content{
 	max-width: 48em;
    /*  width: 60%; */
@@ -289,6 +328,15 @@ i{
 	}
 	#section2{
 		font-size: 17px
+	}
+	#portraitContainer{
+		display: block;
+		margin:  0 auto;
+		padding: 0;
+		width: 100%;
+	}
+	#portraitContainer img{
+		width: 60%;
 	}
 	#section3{
 		height: 900px;
@@ -337,6 +385,10 @@ i{
     	text-align: center;
     	vertical-align: top
     }
+    .brandBlock{
+    	width: 40%;
+    }
+
 }
 #construction{
 	font-size: 50px;
