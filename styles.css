@@ -24,7 +24,7 @@ i{
     opacity: .5
 }
 #brandWrapper{
-	margin: 0 5%;
+	margin: 0 12%;
 }
 #centerContainer{
 	margin: 0 15%;
@@ -293,7 +293,7 @@ i{
   	float: right;
 }
 .brandBlock{
-	margin: 10px 20px;
+	margin: 10px 2%;
 	display: inline-block;
 	vertical-align: top;
 	width: 28%;
@@ -387,6 +387,7 @@ i{
     }
     .brandBlock{
     	width: 40%;
+    	margin: 10px 4%;
     }
 }
 #construction{
