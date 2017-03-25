@@ -71,7 +71,7 @@ italics{
 	margin-right: 20px;
 	margin-left: 20px
 }
-#section1{
+.transparentBackground{
 	height: 100vh;
 	width: 100%;
 	min-height: 560px;
@@ -176,16 +176,16 @@ italics{
     text-overflow: ellipsis;
     background-color: #ed4933;
 }
-#section2{
+.contentContainers{
 	background-color: rgba(33, 55, 79,.8);
 	width: 100%;
 	padding: 4em 0 4em 0;
 	font-size: 20px;
 	text-align: center;
 	position: relative;
-	margin-bottom: 50px;
+	margin-bottom: 200px;
 }
-#section2 .content h2{
+.contentContainers .content h2{
 	border-bottom: solid 2px white;
     display: block;
     padding-bottom: 1em;
@@ -193,7 +193,7 @@ italics{
     color: white;
 
 }
-#section2 h2{
+.contentContainers h2{
 	border-bottom: solid 2px white;
     display: inline-block;
     padding-bottom: 1em;
@@ -201,7 +201,7 @@ italics{
     color: white;
 
 }
-#section2 p{
+.contentContainers p{
 	color: #ccd8e6;
 	margin: 0 auto;
 	max-width: 770px
@@ -220,7 +220,7 @@ italics{
 	width: 65%;
 	vertical-align: top
 }
-#section2 p::after{
+.contentContainers p::after{
 	background-image: url('./ic_keyboard_arrow_down_white_24px.svg');
     background-position: center;
     background-repeat: no-repeat;
@@ -234,12 +234,12 @@ italics{
     position: absolute;
     width: 1.5em;
 }
-#section2 span{
+.contentContainers span{
 	color:  #ed4933;
 	font-weight: bold;
 	font-size: 25px
 }
-#section3{
+/* #section3{
 	background-color: rgba(33, 55, 79,.8);
 	height: 300px;
 	width: 100%;
@@ -265,7 +265,7 @@ italics{
 }
 #section4 .imgContainer img {
     float: right;
-}
+} */
 #section5{
 	background-color: rgba(33, 55, 79,.8);
 	height: 300px;
@@ -279,7 +279,7 @@ italics{
 }
 #section6{
 	width: 100%;
-	padding: 6em 0 4em 0;
+	/* padding: 6em 0 4em 0; */
 	width: 100%;
 	font-size: 20px;
 }
@@ -355,10 +355,10 @@ italics{
 	#heroTextContainer h2{
 		width: 100%
 	}
-	#section2{
+	.contentContainers{
 		font-size: 17px
 	}
-	#section2 .content{
+	.contentContainers .content{
 		width: 80%
 	}
 	#portraitContainer{
@@ -371,11 +371,9 @@ italics{
 		width: 60%;
 	}
 	#section3{
-		height: 900px;
 		margin-top: 0;
 	}
 	#section4{
-		height: 900px;
 		margin-top: 0;
 		background: rgba(33, 55, 79,1)
 	}
